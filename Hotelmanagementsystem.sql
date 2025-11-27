@@ -155,7 +155,7 @@ CREATE TABLE CabBookings (
 );
 
 ---
-## 👤 Guest and Room Data
+## Guest and Room Data
 
 -- Inserting sample data into Guests
 INSERT INTO Guests (FullName, Phone, Email, Address, IDProofType, IDProofNumber, Preferences)
@@ -187,7 +187,7 @@ VALUES
 
 
 ---
-## 💳 Payment Data
+##  Payment Data
 
 -- Inserting sample data into Payments
 -- Note: PaymentGateway table already has data ('Stripe', 'PayPal', 'Square') with IDs 1, 2, 3
@@ -200,7 +200,7 @@ VALUES
 (4, 900.00, 'Credit Card', 3); -- Diana's full payment via Square
 
 ---
-## 🧖 Spa and Pool Data
+##  Spa and Pool Data
 
 -- Inserting sample data into SpaServices
 INSERT INTO SpaServices (ServiceName, DurationMinutes, Price)
@@ -224,7 +224,7 @@ VALUES
 (4, '2025-11-26', '13:00:00', '14:00:00'); -- Diana reserves the pool
 
 ---
-## 🍽️ Restaurant Data
+## Restaurant Data
 
 -- Inserting sample data into MenuItems
 INSERT INTO MenuItems (ItemName, Category, Price)
@@ -253,7 +253,7 @@ VALUES
 
 
 ---
-## 💪 Gym and Cab Services Data
+##  Gym and Cab Services Data
 
 -- Inserting sample data into GymMemberships
 INSERT INTO GymMemberships (GuestID, MembershipType, StartDate, EndDate)
