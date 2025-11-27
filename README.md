@@ -9,13 +9,21 @@ This project includes:
 Complete EER Diagram
 SQL Schema (table creation scripts)
 Sample Data Insertion
+
 The goal was to design and implement a relational database for a Hotel Management System, and keeping this in mind the database focuses on:
+
 Managing room inventory, types, and availability status
+
 Capturing guest information, ID proofs, and preferences
+
 Handling diverse bookings (Rooms, Spa, Pool, and Gym classes)
+
 Tracking logistics for Cab drivers and pickups/drops
+
 Managing restaurant orders and menu items
+
 Centralizing payments across all facilities (Stay, Food, Transport, and Wellness)
+
 Representing real-world relational dependencies
 
 Presented By:
