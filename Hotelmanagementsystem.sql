@@ -176,7 +176,6 @@ VALUES
 ('510', 'Deluxe Double', 250.00, 'Occupied');
 
 -- Inserting sample data into Reservations
--- Alice (GuestID 1) books Room 101 (RoomID 1)
 INSERT INTO Reservations (GuestID, RoomID, CheckIn, CheckOut, TotalCost)
 VALUES
 (1, 1, '2025-11-20', '2025-11-25', 600.00), -- Alice's current stay
@@ -188,9 +187,7 @@ VALUES
 
 ---
 ##  Payment Data
-
 -- Inserting sample data into Payments
--- Note: PaymentGateway table already has data ('Stripe', 'PayPal', 'Square') with IDs 1, 2, 3
 INSERT INTO Payments (ReservationID, Amount, PaymentMethod, GatewayID)
 VALUES
 (1, 300.00, 'Credit Card', 1), -- Alice's partial payment via Stripe
