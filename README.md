@@ -26,8 +26,6 @@ Centralizing payments across all facilities (Stay, Food, Transport, and Wellness
 
 Representing real-world relational dependencies
 
-<img width="1224" height="634" alt="image" src="https://github.com/DilipBaduwal/Udaan-B2B-Supply-Chain-Management/blob/main/Err%20Diagram.png">
-
 Presented By:
 
 Group 13
